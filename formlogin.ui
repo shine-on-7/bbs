@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormLogin</class>
+ <widget class="QWidget" name="FormLogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1381</width>
+    <height>857</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget_log" native="true">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>1081</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget_log{
+
+}</string>
+   </property>
+   <widget class="QStackedWidget" name="stack">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>140</y>
+      <width>1081</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="page_log">
+     <widget class="QPushButton" name="btn_log">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>380</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#btn_log{
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	border:2px solid rgb(0,0,0);
+	border-radius:8px;
+}
+#btn_log:hover{
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+#btn_log:pressed{
+	padding-top:5px;
+	padding-left:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>登    录</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_user_logPage">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>180</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:1px solid rgb(0,0,0);
+border-radius:8px;
+border-color: rgb(2, 198, 211);
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>账号：</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_pwd_logPage">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>250</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:1px solid rgb(0,0,0);
+border-radius:8px;
+border-color: rgb(2, 198, 211);
+</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>密码：</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_reg">
+     <widget class="QPushButton" name="btn_reg">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>380</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#btn_reg{
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	border:2px solid rgb(0,0,0);
+	border-radius:8px;
+}
+#btn_reg:hover{
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+#btn_reg:pressed{
+	padding-top:5px;
+	padding-left:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>注    册</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_pwd_regPage">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>220</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: rgb(2, 198, 211);
+border:1px solid rgb(0,0,0);
+border-radius:8px;
+border-color: rgb(2, 198, 211);</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>密码：</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_cfg_regPage">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>280</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:1px solid rgb(0,0,0);
+border-radius:8px;
+border-color: rgb(2, 198, 211);</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>确认密码：</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_user_regPage">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>100</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:1px solid rgb(0,0,0);
+border-radius:8px;
+border-color: rgb(2, 198, 211);
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>昵称：</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_img">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>201</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:0px;
+border-radius:28px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_rand">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>100</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/res/tz.ico</normaloff>:/res/tz.ico</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_city">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>160</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: rgb(2, 198, 211);
+border:1px solid rgb(0,0,0);
+border-radius:8px;
+border-color: rgb(2, 198, 211);</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>市：</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_country">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>220</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:1px solid rgb(0,0,0);
+border-radius:8px;
+border-color: rgb(2, 198, 211);</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>县(区)：</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_province">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>100</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:1px solid rgb(0,0,0);
+border-radius:8px;
+border-color: rgb(2, 198, 211);
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>省：</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_tel">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>160</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: rgb(2, 198, 211);
+border:1px solid rgb(0,0,0);
+border-radius:8px;
+border-color: rgb(2, 198, 211);</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="placeholderText">
+       <string>电话:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_street">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>280</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:1px solid rgb(0,0,0);
+border-radius:8px;
+border-color: rgb(2, 198, 211);</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>乡镇(街道)：</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="rb_merchant">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>110</y>
+        <width>115</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(2, 198, 211);</string>
+      </property>
+      <property name="text">
+       <string>商家</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="rb_common">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>170</y>
+        <width>115</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(2, 198, 211);</string>
+      </property>
+      <property name="text">
+       <string>普通用户</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_set_2"/>
+   </widget>
+   <widget class="QPushButton" name="btn_quit">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>615</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/res/exit.png</normaloff>:/res/exit.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_log_sw">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>606</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>登录</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/res/login.png</normaloff>:/res/login.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_reg_sw">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>614</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>注册</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/res/reg.png</normaloff>:/res/reg.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_bg">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1081</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/res/home.jpg);
+border-radius:28px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>24</y>
+      <width>571</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>方正舒体</family>
+      <pointsize>56</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(110, 137, 255);</string>
+    </property>
+    <property name="text">
+     <string>养 殖 业 论 坛</string>
+    </property>
+   </widget>
+   <zorder>label_bg</zorder>
+   <zorder>stack</zorder>
+   <zorder>btn_quit</zorder>
+   <zorder>btn_log_sw</zorder>
+   <zorder>btn_reg_sw</zorder>
+   <zorder>label_18</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

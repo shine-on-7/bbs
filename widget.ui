@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1360</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>1360</width>
+     <height>820</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="currentIndex">
+    <number>6</number>
+   </property>
+   <widget class="QWidget" name="page_home">
+    <widget class="QPushButton" name="btn_bar_meat">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>110</y>
+       <width>261</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_bar_egg">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>110</y>
+       <width>261</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_bar_water">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>110</y>
+       <width>261</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_bar_ctr">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>440</y>
+       <width>261</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_bar_goods">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>440</y>
+       <width>261</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_bar_exp">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>440</y>
+       <width>261</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="view_show_2">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>350</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;方正舒体&quot;;</string>
+     </property>
+     <property name="text">
+      <string>肉禽板块</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="view_show_3">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>350</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;方正舒体&quot;;</string>
+     </property>
+     <property name="text">
+      <string>蛋禽板块</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="view_show_4">
+     <property name="geometry">
+      <rect>
+       <x>960</x>
+       <y>350</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;方正舒体&quot;;</string>
+     </property>
+     <property name="text">
+      <string>水禽板块</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="view_show_5">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>680</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;方正舒体&quot;;</string>
+     </property>
+     <property name="text">
+      <string>灌水板块</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="view_show_6">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>680</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;方正舒体&quot;;</string>
+     </property>
+     <property name="text">
+      <string>疾病防控</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="view_show_7">
+     <property name="geometry">
+      <rect>
+       <x>960</x>
+       <y>680</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;方正舒体&quot;;</string>
+     </property>
+     <property name="text">
+      <string>商品展示</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_news_list">
+    <widget class="QTableView" name="tv_news">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>1341</width>
+       <height>691</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_news_show">
+    <widget class="QLabel" name="view_show">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>80</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;幼圆&quot;;</string>
+     </property>
+     <property name="text">
+      <string>浏览量</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="title_show">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>20</y>
+       <width>901</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;幼圆&quot;;</string>
+     </property>
+     <property name="text">
+      <string>标题</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_upvote">
+     <property name="geometry">
+      <rect>
+       <x>1140</x>
+       <y>90</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;幼圆&quot;;
+border:0px;</string>
+     </property>
+     <property name="text">
+      <string>点赞</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="te_show">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>140</y>
+       <width>1281</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;幼圆&quot;;
+background-color: rgba(0, 0, 0, 0);
+border:0px;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_person">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>340</y>
+       <width>1311</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+border:1px solid rgb(110,220,255);
+}</string>
+     </property>
+     <property name="title">
+      <string>历史帖子</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+     <widget class="QTableView" name="tv_news_history">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>1291</width>
+        <height>351</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>1311</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+border:1px solid rgb(110,220,255);
+}</string>
+     </property>
+     <property name="title">
+      <string>基本信息</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+     <widget class="QLabel" name="lb_info_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>40</y>
+        <width>1061</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;幼圆&quot;;</string>
+      </property>
+      <property name="text">
+       <string>基本信息</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lb_img_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>181</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_startMod_2">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>230</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #0072C6;
+    color: white;
+    border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: beige;
+	font: 16pt &quot;幼圆&quot;;
+    padding: 6px;
+}
+QPushButton:hover {
+    background-color: #148CD2;
+}
+QPushButton:pressed {
+    background-color: #005CA3;
+}</string>
+      </property>
+      <property name="text">
+       <string>历史帖子</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_merchant">
+    <widget class="QTableView" name="tv_merchant">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>110</y>
+       <width>1301</width>
+       <height>681</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_query_merchant">
+     <property name="geometry">
+      <rect>
+       <x>1216</x>
+       <y>40</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #0072C6;
+    color: white;
+    border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: beige;
+	font: 16pt &quot;幼圆&quot;;
+    padding: 6px;
+}
+QPushButton:hover {
+    background-color: #148CD2;
+}
+QPushButton:pressed {
+    background-color: #005CA3;
+}</string>
+     </property>
+     <property name="text">
+      <string>查 询</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">	font: 16pt &quot;幼圆&quot;;</string>
+     </property>
+     <property name="text">
+      <string>省份：</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_province">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>40</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>40</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">	font: 16pt &quot;幼圆&quot;;</string>
+     </property>
+     <property name="text">
+      <string>城市：</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_city">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>40</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>40</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">	font: 16pt &quot;幼圆&quot;;</string>
+     </property>
+     <property name="text">
+      <string>县区：</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_country">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>40</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>40</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">	font: 16pt &quot;幼圆&quot;;</string>
+     </property>
+     <property name="text">
+      <string>街道：</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_street">
+     <property name="geometry">
+      <rect>
+       <x>1010</x>
+       <y>40</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_merchant_news_list">
+    <widget class="QTableView" name="tv_merchant_new_list">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>140</y>
+       <width>1301</width>
+       <height>651</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lb_merchant_img">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>111</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(233, 251, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lb_merchant_info">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>20</y>
+       <width>1041</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;幼圆&quot;;</string>
+     </property>
+     <property name="text">
+      <string>基本信息</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_edit">
+    <widget class="QPushButton" name="btn_submit">
+     <property name="geometry">
+      <rect>
+       <x>1200</x>
+       <y>30</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #0072C6;
+    color: white;
+    border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: beige;
+	font: 16pt &quot;幼圆&quot;;
+    padding: 6px;
+}
+QPushButton:hover {
+    background-color: #148CD2;
+}
+QPushButton:pressed {
+    background-color: #005CA3;
+}</string>
+     </property>
+     <property name="text">
+      <string>发   布</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="title">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>911</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:1px solid rgb(110,220,255);
+border-radius:8px;
+font: 15pt &quot;幼圆&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>29</x>
+       <y>90</y>
+       <width>1301</width>
+       <height>711</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:1px solid rgb(110,220,255);
+border-radius:8px;
+font: 15pt &quot;幼圆&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="type">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>30</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:1px solid rgb(110,220,255);
+border-radius:8px;
+font: 15pt &quot;幼圆&quot;;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>肉禽板块</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>蛋禽板块</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>水禽板块</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>灌水板块</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>疾病防控</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>商品展示</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_ai">
+    <widget class="QTextEdit" name="te_show_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>1301</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(50, 50, 50, 50);
+border-color:  rgba(50, 50, 50, 50);
+color: rgba(0, 0, 0, 180);
+font: 14pt &quot;宋体&quot;;
+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_send">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>1200</x>
+       <y>583</y>
+       <width>101</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>幼圆</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #0072C6;
+    color: white;
+    border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: beige;
+	font: 15pt &quot;幼圆&quot;;
+    padding: 6px;
+}
+QPushButton:hover {
+    background-color: #148CD2;
+}
+QPushButton:pressed {
+    background-color: #005CA3;
+}</string>
+     </property>
+     <property name="text">
+      <string>发 送</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>580</y>
+       <width>1301</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(193, 255, 235, 100);
+border-color:  rgba(50, 50, 50, 50);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="te_input">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>620</y>
+       <width>1301</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(50, 50, 50, 50);
+border-color:  rgba(50, 50, 50, 50);
+color: rgb(255, 255, 255);
+font: 14pt &quot;幼圆&quot;;</string>
+     </property>
+    </widget>
+    <zorder>te_show_2</zorder>
+    <zorder>label_14</zorder>
+    <zorder>te_input</zorder>
+    <zorder>btn_send</zorder>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1360</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+	background-color: rgb(81, 81, 81);
+}</string>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>17</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 246, 116);
+font: 28pt &quot;方正舒体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>养殖业论坛</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_merchant">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>17</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0072C6;
+    color: white;
+    border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: beige;
+	font: 16pt &quot;幼圆&quot;;
+    padding: 6px;
+}
+QPushButton:hover {
+    background-color: #148CD2;
+}
+QPushButton:pressed {
+    background-color: #005CA3;
+}</string>
+    </property>
+    <property name="text">
+     <string>商家信息</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>7</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>:/res/assets/logo11.ico</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_edit_nav">
+    <property name="geometry">
+     <rect>
+      <x>687</x>
+      <y>17</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0072C6;
+    color: white;
+    border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: beige;
+	font: 16pt &quot;幼圆&quot;;
+    padding: 6px;
+}
+QPushButton:hover {
+    background-color: #148CD2;
+}
+QPushButton:pressed {
+    background-color: #005CA3;
+}</string>
+    </property>
+    <property name="text">
+     <string>发布帖子</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_home">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>17</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0072C6;
+    color: white;
+    border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: beige;
+	font: 16pt &quot;幼圆&quot;;
+    padding: 6px;
+}
+QPushButton:hover {
+    background-color: #148CD2;
+}
+QPushButton:pressed {
+    background-color: #005CA3;
+}</string>
+    </property>
+    <property name="text">
+     <string>论坛首页</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_person_nav">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>17</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0072C6;
+    color: white;
+    border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: beige;
+	font: 16pt &quot;幼圆&quot;;
+    padding: 6px;
+}
+QPushButton:hover {
+    background-color: #148CD2;
+}
+QPushButton:pressed {
+    background-color: #005CA3;
+}</string>
+    </property>
+    <property name="text">
+     <string>个人主页</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_ai_nav">
+    <property name="geometry">
+     <rect>
+      <x>854</x>
+      <y>17</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0072C6;
+    color: white;
+    border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: beige;
+	font: 16pt &quot;幼圆&quot;;
+    padding: 6px;
+}
+QPushButton:hover {
+    background-color: #148CD2;
+}
+QPushButton:pressed {
+    background-color: #005CA3;
+}</string>
+    </property>
+    <property name="text">
+     <string>AI咨询</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_exit">
+    <property name="geometry">
+     <rect>
+      <x>1188</x>
+      <y>17</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0072C6;
+    color: white;
+    border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: beige;
+	font: 16pt &quot;幼圆&quot;;
+    padding: 6px;
+}
+QPushButton:hover {
+    background-color: #148CD2;
+}
+QPushButton:pressed {
+    background-color: #005CA3;
+}</string>
+    </property>
+    <property name="text">
+     <string>退出系统</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
